@@ -10,12 +10,12 @@ This project tackles a **binary image classification problem**: distinguishing b
 - Analyzed results in terms of training/validation accuracy, loss curves, and generalization  
 
 ## 🔹 Key Findings
-- **Deep CNN** consistently outperformed the Simple CNN across all key metrics (accuracy, loss, generalization):contentReference[oaicite:1]{index=1}  
-- **VGG16 transfer learning** showed strong results, reducing training time and mitigating overfitting:contentReference[oaicite:2]{index=2}  
+- **Deep CNN** consistently outperformed the Simple CNN across all key metrics (accuracy, loss, generalization)
+- **VGG16 transfer learning** showed strong results, reducing training time and mitigating overfitting
 - **Hyperparameter tuning**:
   - Random search → overfitting due to poor config selection and small tuning sample size  
-  - Bayesian optimization → failed to converge with shallow search space exploration:contentReference[oaicite:3]{index=3}  
-- **Evaluation metrics**: Accuracy, binary cross-entropy, validation loss, and early stopping provided reliable model comparisons:contentReference[oaicite:4]{index=4}  
+  - Bayesian optimization → failed to converge with shallow search space exploration
+- **Evaluation metrics**: Accuracy, binary cross-entropy, validation loss, and early stopping provided reliable model comparisons
 
 ## 🔹 Technologies Used
 - Python  
